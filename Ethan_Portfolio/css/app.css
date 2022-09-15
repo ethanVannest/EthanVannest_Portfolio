@@ -1,0 +1,143 @@
+body{
+    background-color: #2C2D31;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: lightblue;
+
+}
+h1 {
+    color: lightblue;
+    background-color: #2C2D31;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.titleDiv {
+    display: flex;
+    justify-content: center;
+}
+.headshot{
+    max-width: 30%;
+    max-height: 10%;
+    border-radius: 100%;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.fade-effect1{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:white;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
+.aboutMe{
+    text-align: center;
+    margin: 0 20% 0 20%;
+    font-size: 200%;
+}
+hr{
+    max-width: 70%;
+    height: 5px;
+    border: 0;
+    border-radius: 50%;
+    background: linear-gradient(0.25turn,lightblue, #2C2D31);
+}
+.pj1, .pj2, .pj3{
+    border: 2px solid white;
+    display: inline-block;
+    align-items: center;
+    margin: 20px;
+    overflow: hidden;
+}
+.projectDiv{
+    display: flex;
+    justify-content: center;
+} 
+.res, .breakout, .tam{
+    max-width: 100%;
+
+}
+.overlay_1{
+    position: absolute;
+    padding: 3%;
+    opacity: 0;
+    overflow: hidden;
+    font-size: 10px;
+    transition: .5s;
+}
+.overlay_2{
+    position: absolute;
+    padding: 3%;
+    opacity: 0;
+    overflow: hidden;
+    font-size: 10px;
+    transition: .5s;
+}
+.overlay_3{
+    position: absolute;
+    padding: 2%;
+    opacity: 0;
+    overflow: hidden;
+    font-size: 10px;
+    transition: .5s;
+    
+}
+.overlay_3:hover{
+    opacity: 1;
+    background-color: rgba(0,0,0,.5);
+}
+.overlay_2:hover{
+    opacity: 1;
+    background-color: rgba(0,0,0,.5);
+}
+.overlay_1:hover{
+    opacity: 1;
+    background-color: rgba(0,0,0,.5);
+}
+a{
+    text-decoration: none;
+    color: lightblue;
+}
+a:visited{
+    color: lightblue;
+}
+.connectP{
+    display: flex;
+    justify-content: center;
+}
+.github, .linkedin, .gmail{
+    display: inline-block;
+}
+.githubImg, .linkedinImg{
+    max-width: 100%;
+    max-height: 50%;
+    border-radius: 50%;
+}
+.gmailImg{
+    object-position: 50% 50%;
+    max-width: 100%;
+    max-height: 50%;
+    border-radius: 50%;
+}
+.connect{
+    display: flex;
+    justify-content: center;
+}
+.emailDiv, .email{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:400px) {
+    .aboutMe{
+        font-size: 100%;
+    }
+    .pj1, .pj2, .pj3{
+        margin: 3px;
+        padding: 2%;
+    }
+    .headshot{
+        max-width: 50%;
+        max-height: 30%;
+        border-radius: 100%;
+    }
+}
